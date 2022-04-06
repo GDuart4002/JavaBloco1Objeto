@@ -2,7 +2,7 @@ package Exercicio6Obj;
 
 import java.util.*;
 
-public class Exercicio6Obj {
+public class Conta {
 
 	public static void main(String[] args) {
 		ObjetoConta conta = new ObjetoConta();
