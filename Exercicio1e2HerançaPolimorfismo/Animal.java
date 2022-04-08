@@ -1,13 +1,18 @@
 package Exercicio1e2HerançaPolimorfismo;
 
-public class Animal {
+public abstract class Animal {
 
 	private String nome;
 	private int idade;
-	private boolean som;
 	
 	public void emitirSom() {
-		System.out.println("Emitindo som característico...");
+		System.out.println("Som do Animal");
+	}
+	public void correr() {
+		System.out.println("Corre Forrest Corre!");
+	}
+	public void subir() {
+		System.out.println("Olha o Mamaco subindo nas árvores");
 	}
 	public String getNome() {
 		return nome;
